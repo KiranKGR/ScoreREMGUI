@@ -92,6 +92,7 @@ Type `Python.exe` in the Windows search. Right-click on `Python.exe` and choose 
 
 We have provided a [**standalone version of ScoreREM**](https://github.com/KiranKGR/ScoreREMGUI/tree/2ee7f8c4e502ad681c1b462a68c1353d61cdbf46/src/Standalone_App_for_redistribution) which works with the Matlab runtime.
 
-## Common Issue: Windows in some cases names the EDFlib package in lower case making it invisible to Matlab. In your python installation visible to Matlab, It will show up as edflib in your \\AppData\Local\Programs\Python\Python311\Lib\site-packages path (PACKAGE CONTENTS:  edfreader  edfwriter). You just have to capitalise EDF so that Matlab can find it.
-You will be able to path to the site-packages folder using pyenv in command window. 
-Once you modify the folder name. Please restart Windows and check if the package is visible to matlab using the following command: **py.importlib.import_module("EDFlib")**
+## Common Issue: Windows in some cases names the EDFlib package in lower case making it invisible to Matlab. 
+* In your python installation visible to Matlab, It will show up as edflib in your \\AppData\Local\Programs\Python\Python311\Lib\site-packages path (PACKAGE CONTENTS:  edfreader  edfwriter). You just have to capitalise EDF so that Matlab can find it.
+* You will be able to path to the site-packages folder using pyenv in command window. 
+* Once you modify the folder name. Please restart Windows and check if the package is visible to matlab using the following command: **py.importlib.import_module("EDFlib")**
