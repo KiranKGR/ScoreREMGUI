@@ -15,9 +15,9 @@ ScoreREM is a user-friendly Matlab GUI that allows rapid annotation and quantifi
 
 The application can be installed using the .mlappinstall file in src.
 
-We have provided a [**standalone version of ScoreREM**](https://github.com/KiranKGR/ScoreREMGUI/tree/2ee7f8c4e502ad681c1b462a68c1353d61cdbf46/src/Standalone_App_for_redistribution) which works with the Matlab runtime.
+We have provided a [**standalone version of ScoreREM**](https://github.com/KiranKGR/ScoreREMGUI/tree/main/src/Standalone_App_for_redistribution) which works with the Matlab runtime.
 
-We have provided the supporting documentation to help with the installation. To install Python 3.11.6 and the required packages, read the instructions in [installation support](https://github.com/KiranKGR/ScoreREMGUI/blob/844bc3dde1d610b587019d80b22d538676e47f47/installation_support/Installation_support.md).
+We have provided the supporting documentation to help with the installation. To install Python 3.11.6 and the required packages, read the instructions in [installation support](https://github.com/KiranKGR/ScoreREMGUI/blob/main/installation_support/Installation_support.md).
 
 The application requires 24 inch screen or over to display correctly.
 
@@ -25,7 +25,7 @@ Please refer to the documentation (Supplemental Materials of the citation below)
 
 ## Example Data
 
-The example templates for the Marker and hypnograms txt files can be found in [examplefiles](https://github.com/KiranKGR/ScoreREMGUI/tree/b506ea61ac68232449824155ee6347addf1230a7/examplefiles). Public repositories containing example EDF data for exploring the application can be found here:
+The example templates for the Marker and hypnograms txt files can be found in [examplefiles](https://github.com/KiranKGR/ScoreREMGUI/tree/main/examplefiles). Public repositories containing example EDF data for exploring the application can be found here:
 
 1. [Haaglanden Medisch Centrum sleep staging database](https://physionet.org/content/hmc-sleep-staging/1.1/)
 2. [Sleep-EDF Database Cassette PSG](https://www.physionet.org/content/sleep-edf/1.0.0/)
