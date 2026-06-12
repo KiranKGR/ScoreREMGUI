@@ -36,6 +36,7 @@ This work was supported by the UK Dementia Research Institute, [award number UKD
 ## Citation
 
 For any use of ScoreREM please cite:
+
 K. K. G Ravindran and D.-J. Dijk, “ScoreREM: A user-friendly Matlab-GUI for rapid eye movement (REM) sleep microstructure (Phasic/Tonic) annotation and quantification,” SoftwareX, vol. 29, p. 101988, Feb. 2025, doi: [10.1016/j.softx.2024.101988.](https://doi.org/10.1016/j.softx.2024.101988)
 
 ## For general in-text referencing guidelines for softwares: 
