@@ -95,4 +95,4 @@ We have provided a [**standalone version of ScoreREM**](https://github.com/Kiran
 ## Common Issue: Windows in some cases names the EDFlib package in lower case making it invisible to Matlab. 
 * In your python installation visible to Matlab, It will show up as edflib in your \\AppData\Local\Programs\Python\Python311\Lib\site-packages path (PACKAGE CONTENTS:  edfreader  edfwriter). You just have to capitalise EDF so that Matlab can find it.
 * You will be able to path to the site-packages folder using pyenv in command window. 
-* Once you modify the folder name. Please restart Windows and check if the package is visible to matlab using the following command: **py.importlib.import_module("EDFlib")**
+* Once you modify the folder name. Please restart Windows and check if the package is visible to matlab using the following command in the Matlab command window: **py.importlib.import_module("EDFlib")**
